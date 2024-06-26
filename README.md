@@ -1,1 +1,0 @@
-CLICK ON home.html
