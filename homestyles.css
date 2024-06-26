@@ -1,0 +1,67 @@
+.content {
+    display: flex;
+    height: calc(100vh - 60px); 
+    background: url('newyork.png') no-repeat center fixed;
+    background-size: cover;
+}
+
+.social-media-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+}
+
+.social-media-bar a {
+    margin: 10px 0;
+}
+
+.social-media-bar img {
+    height: 40px;
+    width: 40px;
+}
+
+.main-content {
+    display: flex;
+    margin: 100px;
+    width: 500%;
+}
+
+.contact-info {
+    flex: 100;
+    color: white; 
+    /* margin-right: 400px; */
+}
+.contact-form{
+    flex:1;
+    padding: 20px;
+    color: white; 
+    justify-content: flex-end;
+    margin-left: 100px;
+    text-align: end;
+    
+}
+
+.main-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.main-content p {
+    font-size: 20px;
+    margin: 20px 0;
+    width: 50%;
+    font-weight: bold;
+}
+
+.book-now-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

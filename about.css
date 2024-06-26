@@ -1,0 +1,132 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: cyan;
+   
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.center a {
+    margin: 0 15px;
+    color: black;
+    font-size: 18px;
+}
+
+.center a:hover {
+    text-decoration: underline;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    background-color: black;
+}
+
+.search-button, .clear-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.search-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.clear-button {
+    background-color: #f44336;
+    color: white;
+}
+.content {
+    display: flex;
+    height: calc(100vh - 60px); 
+    background: url('newyork.png') no-repeat center fixed;
+    background-size: cover;
+}
+
+
+.team {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.team h1 {
+    margin-bottom: 10px;
+}
+
+.team span {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.team b {
+    background-color: #ffc107; /* Yellow background color for bold tags */
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+.social-media-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+}
+
+.social-media-bar a {
+    margin: 10px 0;
+}
+
+.social-media-bar img {
+    height: 40px;
+    width: 40px;
+}
+
+.main-content {
+    max-width: 800px;
+    padding: 50px;
+    color: white;
+}
+
+h1 {
+    padding: 0px 0px 0px 5px;
+    text-align: left;
+    font-size: 70px;
+}
+p {
+    padding: 5px 0px 0px 5px;
+    text-align: left;
+    font-size: 25px;
+}
+
